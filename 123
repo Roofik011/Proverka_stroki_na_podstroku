@@ -1,0 +1,7 @@
+echo "# Proverka_stroki_na_podstroku" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Roofik011/Proverka_stroki_na_podstroku.git
+git push -u origin main
